@@ -7,6 +7,8 @@ public class HamletParserTest {
     private String hamletText;
     private HamletParser hamletParser;
 
+    //start with tests. Test code before implementing.
+
     @Before
     public void setUp() {
         this.hamletParser = new HamletParser();
