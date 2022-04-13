@@ -17,6 +17,11 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHamletToLeon() {
+        //Given
+        String hamlet = "Hamlet";
+        //When
+
+
     }
 
     @Test
