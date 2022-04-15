@@ -10,8 +10,8 @@ import java.util.regex.Pattern;
 public class HamletParser {
 
     private static String hamletData;
-    static String originalHamlet = "[H, h][A, a][M, m][L, l][E, e][T, t]";
-    static String originalHoratio = "[H,h][O, o][R, r][A, a][T, t][I, i][O, o]";
+    static String originalHamlet = "Hamlet";
+    static String originalHoratio = "Horatio";
     static String leon = "Leon";
     static String tariq = "Tariq";
 
