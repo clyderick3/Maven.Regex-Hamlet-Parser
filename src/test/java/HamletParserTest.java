@@ -35,6 +35,15 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHoratioToTariq() {
+        //Given
+        String horatio = "Horatio";
+        String expected = "Tariq";
+        //When
+        Pattern pattern = Pattern.compile(horatio);
+        Matcher matcher = pattern.matcher(expected);
+        String actual = matcher.replaceAll(expected);
+        //Then
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
