@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class HamletParser {
 
     private String hamletData;
+    static String originalHamlet = "[H, h][A, a][M, m][L, l][E, e][T, t]";
+    static String originalHoratio = "[H,h][O, o][R, r][A, a][T, t][I, i][O, o]";
+    static String leon = "Leon";
+    static String tariq = "Tariq";
 
     public HamletParser(){
         this.hamletData = loadFile();
