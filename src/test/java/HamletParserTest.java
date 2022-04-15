@@ -63,5 +63,17 @@ public class HamletParserTest {
 
     @Test
     public void testFindHamlet() {
+        //Given
+        String expected = "Hamlet";
+        //When
+        Pattern pattern = Pattern.compile(expected);
+        Matcher matcher = pattern.matcher(expected);
+        Integer count = 0;
+        //Then
+        while (matcher.find()) {
+            count++;
+        }
+        Assert.assertTrue(count > 0);
+
     }
 }
