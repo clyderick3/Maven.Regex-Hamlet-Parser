@@ -56,4 +56,8 @@ public class HamletParser {
         return hamletData;
     }
 
+    public static void toPrint(){
+        System.out.println(hamletData);
+    }
+
 }
